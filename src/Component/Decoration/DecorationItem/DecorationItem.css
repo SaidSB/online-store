@@ -1,0 +1,37 @@
+.decoration-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 15px;
+    margin-bottom: 10px;
+}
+.decoration-item-count{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    width: 45px;
+    text-align: end;
+}
+.decoration-item-title{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    max-width: 100%;
+    width: 100%;
+    text-align: start;
+
+}
+.decoration-item-price{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}

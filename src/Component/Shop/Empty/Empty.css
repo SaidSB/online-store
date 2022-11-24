@@ -1,0 +1,42 @@
+.empty-box img{
+    max-width: 100%;
+}
+.empty-box {
+    text-align: center;
+    padding-bottom: 120px;
+    padding-top: 60px;
+}
+.empty-text{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #101010;
+    padding: 20px 0 10px;
+}
+.empty-content{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #838383;
+}
+.empty-btn{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 540px;
+    width: 100%;
+    height: 65px;
+    border: none;
+    margin-top: 30px;
+    background: #101010;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}

@@ -1,0 +1,37 @@
+.headphones-cart{
+    max-width: 340px;
+    width: 340px;
+    height: 407px;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px 20px 0 20px;
+    position: relative;
+}
+.headphones-cart:last-child img{
+    margin-top: 40px;
+}
+.headphones-text{
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    top: 307px;
+}
+.headphones-text{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1C1C27;
+}
+.headphones-price{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFA542;
+}

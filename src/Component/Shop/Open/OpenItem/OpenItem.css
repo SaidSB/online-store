@@ -1,0 +1,100 @@
+.open-item{
+    max-width: 100%;
+    width: 100%;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    position: relative;
+    padding: 20px 10px 20px 30px;
+    margin-bottom: 15px;
+}
+.open-item:last-child{
+    margin-bottom: 100px;
+}
+@media (max-width: 1040px) {
+    .open-item:last-child{
+        margin-bottom: 15px;
+    }
+}
+.open-item-delete{
+    font-size: 22px;
+    color: #DF6464;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+}
+.open-item-top{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.open-item-top-img{
+    width: 120px;
+    height: 120px;
+    position: relative;
+}
+.open-item img{
+    max-width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.open-item-title{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1C1C27;
+}
+.open-item-price{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 18px;
+    color: #AAAAAA;
+}
+.open-item-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.open-item-bottom-left{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.open-item-btn{
+    width: 35px;
+    height: 30px;
+    background: #FFCE7F;
+    border-radius: 50%;
+    border: none;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    color: white;
+}
+.open-item-count{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+}
+.open-item-total-price{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #1C1C27;
+    margin-right: 10px;
+}

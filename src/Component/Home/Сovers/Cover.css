@@ -1,0 +1,22 @@
+.covers-cart{
+    max-width: 330px;
+    width: 330px;
+    height: 407px;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 25px;
+    transition: all 0.3s ease;
+    row-gap: 30px;
+}
+.covers-text{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1C1C27;
+    margin-top: 20px;
+    cursor: default;
+}

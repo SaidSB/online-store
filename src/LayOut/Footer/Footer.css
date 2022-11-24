@@ -1,0 +1,128 @@
+.footer-box{
+    max-width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px 30px 0 0;
+    padding: 30px;
+    display: flex;
+    column-gap: 200px;
+    flex-wrap: wrap;
+}
+.footer-logo{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #101010;
+    margin-bottom: 20px;
+    cursor: default;
+}
+.footer-logo a{
+    text-decoration: none;
+    color: #000000;
+}
+.footer-content-one{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+    list-style: none;
+}
+.footer-content-one li a{
+    text-decoration: none;
+    color: black;
+}
+.footer-content-one li a.active{
+    color: #FFA542;
+}
+.footer-content-one li{
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+.footer-content-one li a:hover{
+    color: #FFA542;
+    transition: all 0.3s ease;
+    cursor: default;
+    text-decoration: none;
+}
+.footer-two-content{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+    list-style: none;
+    margin-bottom: 35px;
+    transition: all 0.3s ease;
+    cursor: default;
+}
+.footer-two-content li a{
+    text-decoration: none;
+    color: #000000;
+}
+.footer-two-content li a.active{
+    color: #FFA542;
+}
+.footer-two-content a:hover{
+    color: #FFA542;
+    transition: all 0.3s ease;
+}
+.footer-row{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.footer-row ul{
+    display: flex;
+    list-style: none;
+    column-gap: 20px;
+    align-items: center;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #101010;
+}
+.footer-row ul li {
+    transition: all 0.3s ease;
+}
+.footer-row ul li:hover{
+        cursor: default;
+     color: #FFA542;
+        font-weight: 500;
+    transition: all 0.3s ease;
+}
+.footer-icon{
+    font-size: 20px;
+    color: #838383;
+}
+@media (max-width: 853px) {
+    .footer-box{
+        column-gap: 150px;
+    }
+}
+@media (max-width: 753px) {
+    .footer-box{
+        column-gap: 100px;
+    }
+}
+@media (max-width: 653px) {
+    .footer-box{
+        column-gap:50px;
+    }
+}
+@media (max-width: 545px) {
+    .footer-box{
+        padding-right: 100px;
+    }
+}
+@media (max-width: 332px) {
+    .footer-box{
+        padding-right: 50px;
+    }
+}
